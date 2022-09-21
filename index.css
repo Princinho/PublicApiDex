@@ -1,0 +1,37 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: lightgreen;
+}
+
+.my-api {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 3rem 1rem 4rem 3rem;
+    margin: 1rem;
+    padding: 1rem;
+    background: whitesmoke;
+    border-radius: .4rem;
+}
+.api-name{
+    /* border: 1px solid red; */
+    grid-column: 1/-1;
+}
+.api-link{
+    /* border: 1px solid blue; */
+    text-decoration: none;
+}
+.api-description{
+    /* border: 1px solid blue; */
+    grid-row: 3;
+    grid-column: 1/-1
+}
+.api-auth{
+    /* border: 1px solid blue; */
+    grid-row: 4;
+}
+.api-https{
+    /* border: 1px solid blue; */
+    grid-row: 4;
+    grid-column: 3;
+}
