@@ -1,9 +1,15 @@
 html, body {
     margin: 0;
     padding: 0;
-    background-color: lightgreen;
+    background-color: white;
+    font-family: 'Source Sans Pro', sans-serif;
 }
-
+h1{
+    font-family: 'Blinker';
+    color: #444;
+    text-align: center;
+    margin-top: 1em;
+}
 .my-api {
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -12,26 +18,33 @@ html, body {
     padding: 1rem;
     background: whitesmoke;
     border-radius: .4rem;
+    box-shadow: 2px 2px 8px #888;
+    font-family: 'Blinker', sans-serif;
 }
 .api-name{
-    /* border: 1px solid red; */
     grid-column: 1/-1;
+    font-family: Blinker;
 }
 .api-link{
-    /* border: 1px solid blue; */
     text-decoration: none;
+    cursor: pointer;
+}
+.api-link:hover{
+    color: #444;
 }
 .api-description{
-    /* border: 1px solid blue; */
     grid-row: 3;
     grid-column: 1/-1
 }
 .api-auth{
-    /* border: 1px solid blue; */
     grid-row: 4;
 }
 .api-https{
-    /* border: 1px solid blue; */
     grid-row: 4;
     grid-column: 3;
+}
+.main-container{
+    max-width: 500px;
+    color: rgb(54, 54, 54);
+    margin: 0 auto;
 }
