@@ -4,9 +4,15 @@ html, body {
     background-color: white;
     font-family: 'Source Sans Pro', sans-serif;
 }
+body{
+    background-color: rgb(78, 97, 227);
+    background-image: url('./bg-matrix.jpg');
+    background-blend-mode: hard-light;
+    padding-top: 1em;
+}
 h1{
     font-family: 'Blinker';
-    color: #444;
+    color: rgb(222, 222, 222);
     text-align: center;
     margin-top: 1em;
 }
